@@ -1,8 +1,8 @@
-package guru.springframework.controller;
+package guru.springframework.controllers;
 
 import org.springframework.stereotype.Controller;
 
-@Controller("myController")
+@Controller
 public class MyController {
 
     public String hello() {
